@@ -31,6 +31,7 @@ export const ShoppingCart: React.FC<ShoppingCartProps> = ({
             <div>
               <h4>{item.name}</h4>
               <p>${item.price}</p>
+              <p>Quantity: {item.quantity}</p>
             </div>
             <div>
               <Button onClick={() => setEditItem(item)}>Edit</Button>
